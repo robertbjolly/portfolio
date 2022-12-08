@@ -35,12 +35,6 @@ const Navbar = ({handleScroll, setPage}) => {
 				      	<span className="dropdown-item" onClick={(e) => handleScroll(e, 'portfolio')}>My Portfolio</span>
 				      </div>
 				    </li>
-				    <a href={resume} download>
-				    	<span className="navbar-text" style={{position:'absolute', right:'0'}} >
-				      	Resumesss
-				      	<FaCloudDownloadAlt style={{margin:'0px 10px 5px 5px'}} size='25'/>
-				    	</span>
-				    </a>
 			    </ul>
 			  </div>
 			</nav>		
