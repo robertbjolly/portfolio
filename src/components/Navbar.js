@@ -32,7 +32,7 @@ const Navbar = ({handleScroll, setPage}) => {
 				      	<span className="dropdown-item" onClick={(e) => handleScroll(e, 'survive')}>Survive</span>
 				      	<span className="dropdown-item" onClick={(e) => handleScroll(e, 'fantasy')}>Fantasy Football</span>
 				      	<span className="dropdown-item" onClick={(e) => handleScroll(e, 'yahtzee')}>JollyYahtzee</span>
-				      	<span className="dropdown-item" onClick={(e) => handleScroll(e, 'portfolio')}>My Portfolio</span>
+				      	<span className="dropdown-item" onClick={(e) => handleScroll(e, 'portfolio')}>Portfolio</span>
 				      </div>
 				    </li>
 			    </ul>
